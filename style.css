@@ -1,0 +1,83 @@
+ #info-table{
+       width: 100%;
+    }
+    body {
+        color: rgb(241, 100, 100)
+    }
+
+    h2 {
+        color: rgb(243, 97, 153)
+    }
+
+    #recipe-title {
+        color: rgb(226, 88, 203);
+        font-size: 40px;
+    }
+
+    .highlight {
+        background-color: rgb(230, 116, 116);
+    }
+
+    .intro {
+        background-color: rgb(243, 178, 205);
+        font-size: 20px;
+    }
+
+    .block {
+        background-color: rgb(209, 147, 147);
+        width: 700px;
+        box-shadow: 0 2px 8px rgb(243, 192, 192);
+    }
+    #top{
+        box-shadow: 0 2px 8px rgb(233, 197, 197);
+          width: 400px;
+    }
+ .side-image {
+    width: 200px;
+    height: 200px;
+ }
+ #nav a:hover {
+    color: rgb(218, 147, 147);
+}
+.block:hover {
+     box-shadow: 0 9px 8px rgb(100, 61, 61);
+}
+#first-child{
+    color: rgb(144, 82, 202);
+}
+#last-child{
+color: rgb(162, 235, 201);
+}
+tbody tr:hover{
+    background-color: rgb(221, 130, 198);
+
+}
+.ingredients-list li::before {
+    content: "*";
+    color: rgb(174, 240, 174);
+}
+h2::after{
+    content: ":";
+    color: rgb(185, 236, 185);
+}
+#page-footer p::before{
+      content: " *** ";
+}
+.container{
+    width: 900px;
+}
+/*
+ 1.כן
+ 2.כן
+ 3.כן
+4.כן
+5.כן
+6.כן
+7.כן
+8.כן
+9.כן
+*/
+
+
+
+
