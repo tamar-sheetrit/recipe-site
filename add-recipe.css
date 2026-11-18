@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    padding: 1rem;
+}
+form {
+margin: 0 auto;
+max-width: 600px;
+background-color:white ;
+padding: 1.5rem;
+border-radius:0cqh;
+ box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+font-weight: bold;
+
+}
+.field{
+gap: 6px
+
+}
+.row {
+    gap: 16px
+}
+.field > label
+{
+    font-weight: bold
+}
+    
+
+input:not([type="checkbox"], [type="radio"]), select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+.options {
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 16px;
+   
+}
+fieldset{
+  border-radius: 6px;
+  border: 1px;  
+}
+input:focus{
+   border-color:  #2e5597;
+   outline: none;
+}
+select:focus{
+border-color:  #2e5597;
+   outline: none;
+}
+
+textarea:focus{
+border-color:  #2e5597;
+   outline: none;
+}
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #2e5597;
+}
+button{
+    background-color: rgb(137, 206, 238);
+    color: rgb(204, 84, 84);
+    border: none;
+    padding: 6px;
+  border-radius: 6px;
+font-size: 16px;
+min-height: 44px ;
+cursor: pointer;
+width: 100% ;
+
+
+}
+@media (width >= 700px) {
+    form {
+        padding: 2rem;
+    }
+    .row {
+        flex-direction: row;
+    }
+    .row .field {
+        flex: 1;
+    }
+ button { width: auto; align-self: center; }
+}
+
+
+/*לא רואים את כל התצוגה*/
+
